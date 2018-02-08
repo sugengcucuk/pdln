@@ -1,0 +1,69 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+}
+	.kop_surat{
+		font-family: "Times New Roman", Times, serif;
+		font-size: 18px;
+		text-align: center;
+		letter-spacing: 1px;
+		padding: 0;
+		margin: 0;		
+	}
+	.address{
+		font-family: "Times New Roman", Times, serif;
+		font-size: 14px;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
+	.sites{
+		font-family: "Times New Roman", Times, serif;
+		text-align: center;
+		font-size: 14px;
+		padding: 0;
+		margin: 0;
+	}
+	.title,
+	h3{
+		font-size: 14px;
+		text-align: center;
+		font-weight: bold;
+		padding: 0;
+		margin: 0;
+	}
+	.subtitle p{
+		font-size: 12px;
+		text-align: center;
+		font-weight: normal;
+		padding: 0;
+		margin: 0;
+	}
+	.subtitle-left p{
+		font-size: 12px;
+		text-align: left;
+		font-weight: normal;
+		padding-left: 20px;
+		margin: 0;
+	}
+	table {
+		border: none;		
+		border-collapse: collapse;		
+		overflow: auto hidden visible wrap;
+	}
+	.first-table{
+		font-size: 11px;
+	}
+	.first-table thead th {
+		border: 1px solid black;
+		height: 25px;
+	}	
+	.first-table tbody td{
+		border: 1px solid black;
+	}
+	.first-table tbody td:first-child {		
+		border-left: none;
+	}
+	.first-table tbody td:last-child {
+		border-right: 1px solid black;		
+	}

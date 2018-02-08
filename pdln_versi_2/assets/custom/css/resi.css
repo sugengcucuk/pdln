@@ -1,0 +1,69 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+}
+	
+	.title,
+	h3{
+		font-size: 14px;
+		text-align: center;
+		font-weight: bold;
+		padding: 0;
+		margin: 0;
+	}
+	.subtitle p{
+		font-size: 12px;
+		text-align: center;
+		font-weight: normal;
+		padding: 0;
+		margin: 0;
+	}
+	table {
+		border: none;		
+		border-collapse: collapse;		
+		overflow: auto hidden visible wrap;
+	}
+	.first-table{
+		font-size: 11px;
+	}
+	.first-table thead th {
+		border: 1px solid black;
+		height: 25px;
+	}	
+	.first-table tbody td{
+		border: 1px solid black;
+	}
+	.first-table tbody td:first-child {		
+		border-left: none;
+	}
+	.first-table tbody td:last-child {
+		border-right: 1px solid black;		
+	}
+	
+	
+	.no-border{ 
+		font-size: 11px;
+	}
+	.no-border thead th {
+		border: none;
+		height: 25px;
+	}	
+	.no-border tbody td{
+		border: none;
+	}
+	.no-border tbody td:first-child {		
+		border-left: none;
+	}
+	.no-border tbody td:last-child {
+		border-right: none;		
+	}
+	
+	.no-border td{
+		border: none;
+	}
+	.no-border  td:first-child {		
+		border-left: none;
+	}
+	.no-border  td:last-child {
+		border-right: none;		
+	}

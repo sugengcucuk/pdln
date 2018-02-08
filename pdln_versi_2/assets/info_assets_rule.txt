@@ -1,0 +1,13 @@
+custom dir => 
+			1. css => custom css dari theme default yang dipakai jika menggunakan template ext
+			2. script => js untuk application
+img dir =>
+			1. File image png/jpg/psd untuk kebutuhan design application
+layout dir=>
+			1. Berisikan Theme Layout Application 
+				- css 
+				- script js
+				- img
+plugins dir =>
+			Berisi file / folder-folder plugins yang dipakai untuk kebutuhan aplikasi
+			ex. datatable,bootstrap,jquery,amchart dll

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="jquery.js"></script>
+<script src="jquery-ui.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/flipbook.style.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+<script src="js/flipbook.min.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $("#container").flipBook({
+            pdfUrl:"pdf/1.pdf",
+			pdfPageScale:1.5
+        });
+
+    })
+</script>
+
+</head>
+
+<body style="background: url('images/patterns/ecailles.png');">
+<div id="container" style="margin: 20px;">
+    <p>Real 3D Flipbook has lightbox feature - book can be displayed in the same page with lightbox effect.</p>
+    <p>Click on a book cover to start reading.</p>
+    <img src="images/book2/thumb1.jpg" />
+</div>
+tesss
+</body>
+
+</html>
